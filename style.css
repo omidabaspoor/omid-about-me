@@ -513,22 +513,8 @@ body {
 main {
   flex: 1;
 }
-body {
-  background: url('images/backgrand.jpeg') no-repeat center center fixed;
-}
-backdrop-filter: blur(12px);
-@media (max-width: 480px) {
-  .glass {
-    backdrop-filter: none;
-    background: rgba(20, 20, 30, 0.85);
-  }
-}
-.avatar {
-  animation: float 4s ease-in-out infinite;
-}
-@media (min-width: 768px) {
-  .avatar {
     animation: float 4s ease-in-out infinite;
   }
 }
+
 
