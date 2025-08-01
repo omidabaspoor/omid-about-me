@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>امید عباسپور | برنامه‌نویس فول‌استک</title>
+  <meta name="description" content="نمونه‌کارهای امید عباسپور، برنامه‌نویس فول‌استک عاشق طراحی و توسعه وب.">
+  <meta name="keywords" content="امید عباسپور, فول‌استک, برنامه‌نویس, طراحی وب, React, Node.js">
+  
+  <!-- فونت و آیکون -->
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- دکمه تغییر تم -->
+  <button id="theme-toggle" class="theme-btn">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <div class="overlay">
+    <!-- هدر -->
+    <header class="glass center">
+      <img src="images/avatar.webp" class="avatar" alt="پروفایل امید عباسپور" />
+      <h1><span class="typing">سلام، من امید هستم</span> 👋</h1>
+      <p>برنامه‌نویس فول‌استک با عشق به طراحی‌های تمیز و آینده‌نگر 🌌</p>
+      <div class="socials">
+        <a href="https://github.com/Omidabbaspoor" target="_blank" title="گیت‌هاب"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/Omidabbaspoor" target="_blank" title="تلگرام"><i class="fab fa-telegram"></i></a>
+        <a href="mailto:omidabaspor182@gmail.com" title="ایمیل"><i class="fas fa-envelope"></i></a>
+      </div>
+    </header>
+
+    <!-- محتوا -->
+    <main class="grid">
+      <!-- مهارت‌ها -->
+     <section class="glass">
+  <h2><i class="fas fa-tools"></i> مهارت‌های من برای ساخت وب‌سایت کامل</h2>
+  <ul>
+    <li><i class="fab fa-html5"></i> HTML / CSS / JavaScript</li>
+    <li><i class="fab fa-react"></i> React.js</li>
+    <li><i class="fab fa-node-js"></i> Node.js + Express.js</li>
+    <li><i class="fas fa-code-branch"></i> Git / GitHub</li>
+  </ul>
+</section>
+
+
+      <!-- نمونه‌کارها -->
+     <section class="glass center">
+  <h2><i class="fas fa-briefcase"></i> نمونه‌کارها</h2>
+  <div class="no-project">
+    <i class="fas fa-hourglass-half fa-2x"></i>
+    <p>هنوز پروژه‌ای برای نمایش ندارم، اما در حال ساختن چیزهای جذاب هستم!     ..         البته بجز همین سایت </p>
+    <button class="coming-soon" disabled>به‌زودی...</button>
+  </div>
+</section>
+
+
+      <!-- فرم تماس -->
+<section class="glass center">
+  <h2><i class="fas fa-address-book"></i> ارتباط با من</h2>
+  <ul class="contact-list responsive-icons">
+    <li>
+      <a href="tel:+989055145596" title="تماس تلفنی">
+        <i class="fas fa-phone-alt"></i>
+        <span>تماس</span>
+      </a>
+    </li>
+    <li>
+      <a href="mailto:omidabaspor182@gmail.com" title="ایمیل">
+        <i class="fas fa-envelope"></i>
+        <span>ایمیل</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://t.me/Omidabbaspoor" target="_blank" title="تلگرام">
+        <i class="fab fa-telegram-plane"></i>
+        <span>تلگرام</span>
+      </a>
+    </li>
+  </ul>
+</section>
+
+<!-- درباره من -->
+<section class="glass">
+  <h2><i class="fas fa-user"></i> درباره من</h2>
+ <p>
+    سلام! من <strong>امید عباسپور</strong> هستم، برنامه‌نویس فول‌استک با تمرکز روی ساخت وب‌سایت‌های مدرن و کاربردی.
+    به طراحی تمیز، تجربه کاربری خوب، و نوشتن کدهای قابل توسعه علاقه دارم.
+  </p>
+  <p>
+    تخصصم در ترکیب <strong>css</strong>، <strong>Node.js</strong>،<strong>JavaScript</strong>، و <strong>html</strong> برای پیاده‌سازی پروژه‌های کامل از ایده تا اجراست.
+    همیشه در حال یادگیریم چون معتقدم برنامه‌نویسی یعنی ساختن، حل مسئله و رشد.
+  </p>
+</section>
+
+
+
+
+    </main>
+
+    <!-- فوتر -->
+   <footer class="glass center">
+  <p>© 2025 - ساخته شده با 💜 توسط امید عباسپور</p>
+</footer>
+
+
+
+
+  <!-- اسکریپت‌ها -->
+  <script src="theme-toggle.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16"></script>
+  <script>
+    const typed = new Typed('.typing', {
+      strings: ['سلام، من امید هستم', 'توسعه‌دهنده فول‌استک', 'عاشق طراحی و کدنویسی'],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+
+</body>
+</html>
